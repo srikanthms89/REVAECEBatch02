@@ -7,6 +7,8 @@ public class EmployeeDemo {
 		// Create the first object of the class and pass the two arguments with type
 		// string and int.
 		System.out.println(Employee.companyName);
+		System.out.println(Employee.salary);
+	
 		Employee e = new Employee("Shubh", 123);
 		System.out.println(e);
 		
