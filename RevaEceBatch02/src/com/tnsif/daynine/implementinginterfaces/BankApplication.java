@@ -7,8 +7,15 @@ public class BankApplication {
 
 	     // Create an Account
 	     Account account = new Account(123456, "Mihir", 155000, bank);
-	     account.
-	     
 
+	     // Deposit money
+	     account.deposit(20000);
+	     // Print the account details
+	     System.out.println(account);
+	     
+	     //withdraw money
+	     account.withdraw(10);
+	     // Print the account details
+	     System.out.println(account);
 	 }
 	}
